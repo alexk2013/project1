@@ -14,7 +14,7 @@ const renderProduct = (title, price) => {
             <h3 class="name">${title}</h3>
             <img src="https://placeimg.com/640/480/animals" alt="" class="pict">
             <p class="price">${price} RUB</p>
-            <button class="buy" data-id=${id} data-price=${price} data-name="Товар ${id}">В корзину</button>
+            <button class="buy" data-id=${id} data-price=${price} data-name=${title}>В корзину</button>
           </div>`;
 };
 
